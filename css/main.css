@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+  height: 50px;
+  background-color: teal;
+}
+nav .logo {
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  padding: 7px 0 0 20px;
+}
+
+.logo span {
+  color: yellow;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 13px 25px 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.intro {
+  color: white;
+  text-align: center;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.intro h2 {
+  padding-top: 150px;
+  font-size: 50px;
+}
+
+.intro h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+.intro h4 {
+  margin-bottom: 55px;
+}
+
+.intro hr {
+  width: 100px;
+  margin: 0 auto;
+  border: dashed;
+}
+
+.intro button {
+  padding: 15px 25px;
+  margin: 30px auto 60px auto;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: yellow;
+  border-style: none;
+  border-radius: 7px;
+}
+
+.intro button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.aboutme {
+  background-color: white;
+  text-align: center;
+  color: gray;
+}
+
+.aboutme h1 {
+  font-size: 55px;
+  font-weight: black;
+  color: teal;
+  padding: 80px 0 10px 0;
+}
+
+.aboutme .p {
+  font-size: 20px;
+  padding: 15px 0;
+  margin: 0 200px;
+  line-height: 50px;
+}
+
+.abilities {
+  margin: 0 150px 50px 150px;
+  padding: 25px 50px;
+  height: 100px;
+}
+
+.ability {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  padding: 20px;
+  border-right: solid 1px #605B5B;
+}
+
+.ability:last-child {
+  border: none;
+}
+
+.ability .fa {
+  font-size: 25px;
+  padding-bottom: 7px;
+  color: teal;
+}
+
+.ability h3 {
+  padding-bottom: 5px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.ability p {
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.services {
+  background-image: url("../img/background2.png");
+  margin-top: 50px;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+}
+
+.wrap {
+  width: 40%;
+  display: block;
+  float: left;
+  padding: 20px 25px 15px 50px;
+  text-align: center;
+  color: gray;
+}
+
+.services h1 {
+  font-size: 55px;
+  font-weight: black;
+  color: teal;
+  padding: 30px 0 10px 0;
+}
+
+.services .p {
+  font-size: 20px;
+  padding: 15px 0;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+div.top, div.bottom {
+  display: inline-block;
+  width: 49%;
+  padding-bottom: 35px;
+}
+
+.services .fa {
+  font-size: 25px;
+  padding-bottom: 7px;
+  color: teal;
+}
+
+.feature p {
+  padding: 7px 10px;
+}
+
+.contact {
+  background-color: white;
+  text-align: center;
+  color: gray;
+}
+
+.contact h1 {
+  font-size: 55px;
+  font-weight: black;
+  color: teal;
+  padding: 40px 0 10px 0;
+}
+
+.contact .p {
+  font-size: 20px;
+  padding: 15px 0;
+  margin: 0 220px;
+  line-height: 50px;
+}
+
+.form {
+  background-color: black;
+  color: #8B8787;
+  padding: 40px 0 25px 0;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+input, textarea {
+  width: 800px;
+  height: 50px;
+  background-color: black;
+  border: none;
+  border-bottom: solid 1px #8B8787;
+  margin-bottom: 20px;
+}
+
+.form button {
+  padding: 15px 25px;
+  margin: 30px auto 60px auto;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: yellow;
+  border-style: none;
+  border-radius: 7px;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.form p {
+  text-align: center;
+}
